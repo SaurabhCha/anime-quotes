@@ -1,0 +1,19 @@
+.selection{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    margin: 5px;
+    padding: 10px;
+    background-color: #0099cc;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover {
+    background-color: #47d147;
+    color: white;
+  }

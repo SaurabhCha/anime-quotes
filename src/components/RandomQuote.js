@@ -30,7 +30,7 @@ const RandomQuote = () => {
         return <div>
             {error ? <Error /> : <div>
                 <div className="card mx-auto" style={{ width: '75%', margin:'30px' }}>
-                    <div class="card-header">{quote.anime}</div>
+                    <div className="card-header">{quote.anime}</div>
                     <div className="card-body">
                         <h6 className="card-subtitle mb-2 text-muted">{quote.character}</h6>
                         <p className="card-text">{quote.quote}</p>

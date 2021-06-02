@@ -1,7 +1,13 @@
 .header{
     background-color: black;
     color: white;
-    height: 200px;
-    font-size: 10vw;
+    height: 150px;
     font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image{
+    height: 150px;
 }
