@@ -27,19 +27,18 @@ const RandomQuote = () => {
         return <Loading />
     }
     else {
-        return <div>
-            {error ? <Error /> : <div>
-                <div className="card mx-auto" style={{ width: '75%', margin: '30px' }}>
-                    <div className="card-header">{quote.anime}</div>
-                    <div className="card-body">
-                        <h6 className="card-subtitle mb-2 text-muted">{quote.character}</h6>
-                        <p className="card-text">{quote.quote}</p>
+        return (
+            <div >
+                {error ? <Error /> :
+                    <div>
+                        <div className='animeTitle'>Anime: {quote.anime}</div>
+                        <div className='animeCharacter'>Character: {quote.character}</div>
+                        <div className='animeQuote'>{quote.quote}</div>
                         <button className='nextButton' onClick={() => setNewQuote(prevState => !prevState)}>Next</button>
                     </div>
-                </div>
+                }
             </div>
-            }
-        </div>
+        )
     }
 
 }

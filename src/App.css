@@ -1,15 +1,36 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .nextButton {
-  width: 80px;
+  margin-top: 2%;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
   border-radius: 5px;
   background-color: #f5dd07;
   color: #d90104;
-  border-color: white;
 }
 .nextButton:hover {
   background-color: #f74a06;
   color: black;
+}
+.animeTitle {
+  margin-top: 5%;
+  font-size: larger;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.animeCharacter {
+  margin-top: 2%;
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.animeQuote {
+  margin-top: 2%;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
